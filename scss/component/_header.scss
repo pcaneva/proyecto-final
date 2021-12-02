@@ -1,0 +1,39 @@
+@import "../base/variables";
+
+
+header {
+    margin: $margin-general;
+    color: black;
+    background-color: beige;
+    $pading-general: 20px;
+    /* declaro flexbox*/
+    display:flex;
+    justify-content: left; }
+
+    .menu {
+    /* mix de colores*/
+    color: black;
+    width: 900px;
+    /* declaro flexbox*/
+    display:flex;
+    justify-content: left;
+}
+   a .enlace {
+    text-decoration: none;
+    /* Hover*/
+    &:hover{
+    /*aclarar color*/
+    background-color: lighten($color-1, 25% );
+    color: $color-3;
+    padding: 10px;
+    border-radius: 6px;
+    /* trasformación*/
+    /* tamaño que se agranda*/
+    transform: scale(2);
+    /* tiempo en hacer la transformación*/
+    transition: all 1s;
+            }
+        }
+    
+
+    

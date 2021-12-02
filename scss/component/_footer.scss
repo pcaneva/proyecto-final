@@ -1,0 +1,20 @@
+@import "../base/variables";
+
+
+/* anidamiento*/
+
+footer {
+    background-color: beige;
+    /* declaro flexbox*/
+    display: flex;
+    justify-content: center;
+    }
+
+.section3 {
+    margin: 40px;
+     /*declaro flexbox*/
+    display: flex;
+    /* distribución horizontal*/
+    justify-content: space-around;   
+    }
+

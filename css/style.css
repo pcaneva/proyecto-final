@@ -1,0 +1,133 @@
+@charset "UTF-8";
+/*Variables generales*/
+/* Colores*/
+header {
+  margin: 20px auto;
+  color: black;
+  background-color: beige;
+  /* declaro flexbox*/
+  display: flex;
+  justify-content: left;
+}
+
+.menu {
+  /* mix de colores*/
+  color: black;
+  width: 900px;
+  /* declaro flexbox*/
+  display: flex;
+  justify-content: left;
+}
+
+a .enlace {
+  text-decoration: none;
+  /* Hover*/
+}
+a .enlace:hover {
+  /*aclarar color*/
+  background-color: #80ff80;
+  color: grey;
+  padding: 10px;
+  border-radius: 6px;
+  /* trasformación*/
+  /* tamaño que se agranda*/
+  transform: scale(2);
+  /* tiempo en hacer la transformación*/
+  transition: all 1s;
+}
+
+/*Variables generales*/
+/* Colores*/
+html {
+  margin: 40px;
+  /* Animaciones*/
+}
+html .html {
+  scroll-behavior: smooth;
+}
+
+.parrafo-receta {
+  text-align: center;
+  color: black;
+}
+
+body {
+  background-color: white;
+}
+
+.titulo-principal {
+  color: lime;
+  font-family: "Lobster Two", cursive;
+  text-align: center;
+}
+
+.titulo-secundario {
+  color: lightsalmon;
+  text-overflow: inherit;
+  text-align: center;
+  font-family: "Special Elite", cursive;
+}
+
+.imagen-central-conteiner {
+  /*declaro flex*/
+  background-color: beige;
+  display: flex;
+  justify-content: center;
+}
+
+.parrafo-principal {
+  color: grey;
+  text-align: center;
+  font-size: 20px;
+}
+
+.imagenes-secunadarias {
+  border: 10px;
+  margin: 10px;
+  width: 35px;
+}
+
+/* declaro flex*/
+.imagenes-secundarias-conteiner {
+  margin: 40px;
+  border: 10px;
+  /*Declaro flex*/
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+
+/*Variables generales*/
+/* Colores*/
+/* anidamiento*/
+footer {
+  background-color: beige;
+  /* declaro flexbox*/
+  display: flex;
+  justify-content: center;
+}
+
+.section3 {
+  margin: 40px;
+  /*declaro flexbox*/
+  display: flex;
+  /* distribución horizontal*/
+  justify-content: space-around;
+}
+
+/*Variables generales*/
+/* Colores*/
+html {
+  margin: 40px;
+  /* Animaciones*/
+}
+html .html {
+  scroll-behavior: smooth;
+}
+
+.parrafo-receta {
+  text-align: center;
+  color: black;
+}
+
+/*# sourceMappingURL=style.css.map */
