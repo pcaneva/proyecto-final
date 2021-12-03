@@ -5,7 +5,8 @@
     background-color : $color-4 ;
     }
     
-    .titulo-principal {color: $color-1;
+    .titulo-principal {
+        color: $color-1;
         font-family: 'Lobster Two', cursive;
         text-align: center;
     }
@@ -28,18 +29,23 @@
         font-size: 20px;
     }
                 
-    .imagenes-secunadarias {
+    .imagenes-secundarias {
     border: 10px;
-    margin: 10px;
-    width: 35px;
+    margin: 2rem 0;
+    width: 30%;
+        @media (max-width: 576px) {
+            width: 100%;
+        }
+    
     }
 
     /* declaro flex*/
     .imagenes-secundarias-conteiner {
-    margin: 40px;
-    border: 10px;
     /*Declaro flex*/
     display: flex;
     justify-content: center;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
+        @media (max-width: 576px) {
+            flex-direction: column;
+        }
     }

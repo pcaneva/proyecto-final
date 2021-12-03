@@ -36,6 +36,11 @@ a .enlace:hover {
   transition: all 1s;
 }
 
+.novedades div p {
+  font-size: 1.2rem;
+  color: lime;
+}
+
 /*Variables generales*/
 /* Colores*/
 html {
@@ -44,11 +49,6 @@ html {
 }
 html .html {
   scroll-behavior: smooth;
-}
-
-.parrafo-receta {
-  text-align: center;
-  color: black;
 }
 
 body {
@@ -81,38 +81,77 @@ body {
   font-size: 20px;
 }
 
-.imagenes-secunadarias {
+.imagenes-secundarias {
   border: 10px;
-  margin: 10px;
-  width: 35px;
+  margin: 2rem 0;
+  width: 30%;
+}
+@media (max-width: 576px) {
+  .imagenes-secundarias {
+    width: 100%;
+  }
 }
 
 /* declaro flex*/
 .imagenes-secundarias-conteiner {
-  margin: 40px;
-  border: 10px;
   /*Declaro flex*/
   display: flex;
   justify-content: center;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
+}
+@media (max-width: 576px) {
+  .imagenes-secundarias-conteiner {
+    flex-direction: column;
+  }
 }
 
-/*Variables generales*/
-/* Colores*/
-/* anidamiento*/
-footer {
+.footer-conteiner {
   background-color: beige;
   /* declaro flexbox*/
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@media (max-width: 576px) {
+  .footer-conteiner {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+.footer-conteiner .footer-texto h4 {
+  font-size: 1.2rem;
+}
+.footer-conteiner .footer-form {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
 }
-
-.section3 {
-  margin: 40px;
-  /*declaro flexbox*/
+.footer-conteiner .footer-form button {
+  width: 50%;
+}
+@media (max-width: 576px) {
+  .footer-conteiner .footer-form button {
+    margin-top: 1rem;
+  }
+}
+.footer-conteiner img {
+  width: 30%;
+}
+@media (max-width: 576px) {
+  .footer-conteiner img {
+    width: 100%;
+    margin: 1rem 0;
+  }
+}
+.footer-conteiner .footer-contacto {
   display: flex;
-  /* distribución horizontal*/
-  justify-content: space-around;
+  flex-direction: column;
+  justify-content: center;
+}
+@media (max-width: 576px) {
+  .footer-conteiner .footer-contacto {
+    margin-left: 9rem;
+  }
 }
 
 /*Variables generales*/
@@ -125,9 +164,225 @@ html .html {
   scroll-behavior: smooth;
 }
 
+/*Variables generales*/
+/* Colores*/
+html {
+  margin: 40px;
+  /* Animaciones*/
+}
+html .html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: white;
+}
+
+.titulo-principal {
+  color: lime;
+  font-family: "Lobster Two", cursive;
+  text-align: center;
+}
+
+.titulo-secundario {
+  color: lightsalmon;
+  text-overflow: inherit;
+  text-align: center;
+  font-family: "Special Elite", cursive;
+}
+
+/*Variables generales*/
+/* Colores*/
+html {
+  margin: 40px;
+  /* Animaciones*/
+}
+html .html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: white;
+}
+
+.titulo-principal {
+  color: lime;
+  font-family: "Lobster Two", cursive;
+  text-align: center;
+}
+
+.titulo-secundario {
+  color: lightsalmon;
+  text-overflow: inherit;
+  text-align: center;
+  font-family: "Special Elite", cursive;
+}
+
 .parrafo-receta {
   text-align: center;
   color: black;
+}
+
+.imagenes-recetas {
+  justify-content: center;
+}
+
+.footer-conteiner {
+  background-color: beige;
+  /* declaro flexbox*/
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@media (max-width: 576px) {
+  .footer-conteiner {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+.footer-conteiner .footer-texto h4 {
+  font-size: 1.2rem;
+}
+.footer-conteiner .footer-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.footer-conteiner .footer-form button {
+  width: 50%;
+}
+@media (max-width: 576px) {
+  .footer-conteiner .footer-form button {
+    margin-top: 1rem;
+  }
+}
+.footer-conteiner img {
+  width: 30%;
+}
+@media (max-width: 576px) {
+  .footer-conteiner img {
+    width: 100%;
+    margin: 1rem 0;
+  }
+}
+.footer-conteiner .footer-contacto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+@media (max-width: 576px) {
+  .footer-conteiner .footer-contacto {
+    margin-left: 9rem;
+  }
+}
+
+/*Variables generales*/
+/* Colores*/
+html {
+  margin: 40px;
+  /* Animaciones*/
+}
+html .html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: white;
+}
+
+.titulo-principal {
+  color: lime;
+  font-family: "Lobster Two", cursive;
+  text-align: center;
+}
+
+.titulo-secundario {
+  color: lightsalmon;
+  text-overflow: inherit;
+  text-align: center;
+  font-family: "Special Elite", cursive;
+}
+
+.parrafo-articulo {
+  text-overflow: inherit;
+  text-align: center;
+  font-family: "Special Elite", cursive;
+}
+
+.footer-conteiner {
+  background-color: beige;
+  /* declaro flexbox*/
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@media (max-width: 576px) {
+  .footer-conteiner {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+.footer-conteiner .footer-texto h4 {
+  font-size: 1.2rem;
+}
+.footer-conteiner .footer-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.footer-conteiner .footer-form button {
+  width: 50%;
+}
+@media (max-width: 576px) {
+  .footer-conteiner .footer-form button {
+    margin-top: 1rem;
+  }
+}
+.footer-conteiner img {
+  width: 30%;
+}
+@media (max-width: 576px) {
+  .footer-conteiner img {
+    width: 100%;
+    margin: 1rem 0;
+  }
+}
+.footer-conteiner .footer-contacto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+@media (max-width: 576px) {
+  .footer-conteiner .footer-contacto {
+    margin-left: 9rem;
+  }
+}
+
+/*Variables generales*/
+/* Colores*/
+html {
+  margin: 40px;
+  /* Animaciones*/
+}
+html .html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: white;
+}
+
+.titulo-principal {
+  color: lime;
+  font-family: "Lobster Two", cursive;
+  text-align: center;
+}
+
+.titulo-secundario {
+  color: lightsalmon;
+  text-overflow: inherit;
+  text-align: left;
+  font-family: "Special Elite", cursive;
 }
 
 /*# sourceMappingURL=style.css.map */
