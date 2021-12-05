@@ -2,28 +2,29 @@
 @import "../../base/html";
 
 body {
-    background-color : $color-4 ;
-    }
+    background-color: $color-4;
+}
 
 .titulo-principal {
     color: $color-1;
     font-family: 'Lobster Two', cursive;
     text-align: center;
 }
+
 .titulo-secundario {
-    color: $color-2; 
-    text-overflow: inherit; 
-    text-align: center; 
-    font-family: 'Special Elite', cursive; 
+    color: $color-2;
+    text-overflow: inherit;
+    text-align: center;
+    font-family: 'Special Elite', cursive;
 }
 
 .parrafo-receta {
     text-align: center;
     color: black;
-    }
+}
 
 .imagenes-recetas {
- justify-content: center;
+    justify-content: center;
 }
 
 .footer-conteiner {
@@ -37,36 +38,43 @@ body {
         flex-direction: row;
         flex-wrap: wrap;
     }
+
     .footer-texto {
         h4 {
             font-size: 1.2rem
         }
     }
+
     .footer-form {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        button{
+
+        button {
             width: 50%;
+
             @media (max-width: 576px) {
                 margin-top: 1rem;
             }
         }
     }
-        img{
-            width: 30%;
-            @media (max-width: 576px) {
-                width: 100%;
-                margin: 1rem 0;
-            }
+
+    img {
+        width: 30%;
+
+        @media (max-width: 576px) {
+            width: 100%;
+            margin: 1rem 0;
         }
-    
+    }
+
     .footer-contacto {
         display: flex;
         flex-direction: column;
         justify-content: center;
+
         @media (max-width: 576px) {
             margin-left: 9rem;
         }
     }
-    }
+}

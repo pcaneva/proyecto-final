@@ -7,36 +7,39 @@ header {
     background-color: beige;
     $pading-general: 20px;
     /* declaro flexbox*/
-    display:flex;
-    justify-content: left; }
+    display: flex;
+    justify-content: left;
+}
 
-    .menu {
+.menu {
     /* mix de colores*/
     color: black;
     width: 900px;
     /* declaro flexbox*/
-    display:flex;
+    display: flex;
     justify-content: left;
 }
-   a .enlace {
-    text-decoration: none;
-    /* Hover*/
-    &:hover{
-    /*aclarar color*/
-    background-color: lighten($color-1, 25% );
-    color: $color-3;
-    padding: 10px;
-    border-radius: 6px;
-    /* trasformación*/
-    /* tamaño que se agranda*/
-    transform: scale(2);
-    /* tiempo en hacer la transformación*/
-    transition: all 1s;
-            }
-        }
-    
 
-    
+a .enlace {
+    text-decoration: none;
+
+    /* Hover*/
+    &:hover {
+        /*aclarar color*/
+        background-color: lighten($color-1, 25%);
+        color: $color-3;
+        padding: 10px;
+        border-radius: 6px;
+        /* trasformación*/
+        /* tamaño que se agranda*/
+        transform: scale(2);
+        /* tiempo en hacer la transformación*/
+        transition: all 1s;
+    }
+}
+
+
+
 .novedades {
     div {
         p {

@@ -2,17 +2,18 @@
 @import "../../base/html";
 
 body {
-    background-color : $color-4 ;
-    }
+    background-color: $color-4;
+}
 
 .titulo-principal {
     color: $color-1;
     font-family: 'Lobster Two', cursive;
     text-align: center;
 }
+
 .titulo-secundario {
-    color: $color-2; 
-    text-overflow: inherit; 
+    color: $color-2;
+    text-overflow: inherit;
     text-align: left;
-    font-family: 'Special Elite', cursive; 
+    font-family: 'Special Elite', cursive;
 }

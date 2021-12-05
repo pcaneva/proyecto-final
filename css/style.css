@@ -112,6 +112,13 @@ body {
   align-items: center;
   justify-content: space-between;
 }
+.footer-conteiner .section3 {
+  margin: 40px;
+  /*declaro flexbox*/
+  display: flex;
+  /* distribución horizontal*/
+  justify-content: space-around;
+}
 @media (max-width: 576px) {
   .footer-conteiner {
     flex-direction: row;
@@ -149,7 +156,7 @@ body {
   justify-content: center;
 }
 @media (max-width: 576px) {
-  .footer-conteiner .footer-contacto {
+  .footer-conteiner {
     margin-left: 9rem;
   }
 }
