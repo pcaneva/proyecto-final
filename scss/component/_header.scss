@@ -1,4 +1,5 @@
 @import "../base/variables";
+@import "../base/html";
 
 
 header {
@@ -20,31 +21,6 @@ header {
     justify-content: left;
 }
 
-a .enlace {
-    text-decoration: none;
-
-    /* Hover*/
-    &:hover {
-        /*aclarar color*/
-        background-color: lighten($color-1, 25%);
-        color: $color-3;
-        padding: 10px;
-        border-radius: 6px;
-        /* trasformación*/
-        /* tamaño que se agranda*/
-        transform: scale(2);
-        /* tiempo en hacer la transformación*/
-        transition: all 1s;
-    }
-}
 
 
 
-.novedades {
-    div {
-        p {
-            font-size: 1.2rem;
-            color: $color-1;
-        }
-    }
-}

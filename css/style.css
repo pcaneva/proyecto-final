@@ -1,6 +1,14 @@
 @charset "UTF-8";
 /*Variables generales*/
 /* Colores*/
+html {
+  margin: 40px;
+  /* Animaciones*/
+}
+html .html {
+  scroll-behavior: smooth;
+}
+
 header {
   margin: 20px auto;
   color: black;
@@ -17,28 +25,6 @@ header {
   /* declaro flexbox*/
   display: flex;
   justify-content: left;
-}
-
-a .enlace {
-  text-decoration: none;
-  /* Hover*/
-}
-a .enlace:hover {
-  /*aclarar color*/
-  background-color: #80ff80;
-  color: grey;
-  padding: 10px;
-  border-radius: 6px;
-  /* trasformación*/
-  /* tamaño que se agranda*/
-  transform: scale(2);
-  /* tiempo en hacer la transformación*/
-  transition: all 1s;
-}
-
-.novedades div p {
-  font-size: 1.2rem;
-  color: lime;
 }
 
 /*Variables generales*/
@@ -63,7 +49,6 @@ body {
 
 .titulo-secundario {
   color: lightsalmon;
-  text-overflow: inherit;
   text-align: center;
   font-family: "Special Elite", cursive;
 }
@@ -196,6 +181,11 @@ body {
   text-overflow: inherit;
   text-align: center;
   font-family: "Special Elite", cursive;
+}
+
+.novedades div p {
+  font-size: 1.2rem;
+  color: grey;
 }
 
 /*Variables generales*/
