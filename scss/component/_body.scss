@@ -17,12 +17,6 @@ body {
     font-family: 'Special Elite', cursive;
 }
 
-.imagen-central-conteiner {
-    /*declaro flex*/
-    background-color: beige;
-    display: flex;
-    justify-content: center;
-}
 
 .parrafo-principal {
     color: $color-3;
@@ -30,25 +24,3 @@ body {
     font-size: 20px;
 }
 
-.imagenes-secundarias {
-    border: 10px;
-    margin: 2rem 0;
-    width: 30%;
-
-    @media (max-width: 576px) {
-        width: 100%;
-    }
-
-}
-
-/* declaro flex*/
-.imagenes-secundarias-conteiner {
-    /*Declaro flex*/
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-
-    @media (max-width: 576px) {
-        flex-direction: column;
-    }
-}

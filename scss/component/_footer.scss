@@ -12,6 +12,10 @@
         display: flex;
         /* distribución horizontal*/
         justify-content: space-around;
+        @media (max-width: 576px) {
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
      
     }
 
