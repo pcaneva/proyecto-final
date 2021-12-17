@@ -18,16 +18,13 @@ body {
     font-family: 'Special Elite', cursive;
 }
 
+
 .footer-conteiner {
     background-color: beige;
     /* declaro flexbox*/
     display: flex;
     align-items: center;
     justify-content: space-between;
-
-    @media (max-width: 576px) {
-        flex-direction: row;
-        flex-wrap: wrap;
     }
 
     .footer-texto {
@@ -43,29 +40,16 @@ body {
 
         button {
             width: 50%;
-
-            @media (max-width: 576px) {
-                margin-top: 1rem;
-            }
         }
     }
 
     img {
         width: 30%;
-
-        @media (max-width: 576px) {
-            width: 100%;
-            margin: 1rem 0;
         }
-    }
+    
 
     .footer-contacto {
         display: flex;
         flex-direction: column;
         justify-content: center;
         }
-
-        @media (max-width: 576px) {
-            margin-left: 9rem;
-        }
-}
