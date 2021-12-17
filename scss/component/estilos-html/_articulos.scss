@@ -74,9 +74,9 @@ body {
         display: flex;
         flex-direction: column;
         justify-content: center;
+        }
 
         @media (max-width: 576px) {
             margin-left: 9rem;
         }
-    }
 }
